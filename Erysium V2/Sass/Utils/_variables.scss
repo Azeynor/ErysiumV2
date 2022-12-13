@@ -1,0 +1,22 @@
+
+/*colors for the background*/
+$color-background-light: #8f9091;
+$color-background-dark: #343A40;
+$color-background-black:rgb(7, 6, 7);
+$color-background-body:#7c7d80;
+
+/*colors for the buttons*/
+$color-background-button:#251D1C;
+$color-font-button:#575151;
+$color-active-button: #F1CD22;
+
+/*colors for the fonts*/
+$color-font-primary:white;
+
+
+/*breakpoints*/
+$breakpoints: (
+    mobile: 480px,
+    tablet: 768px,
+    desktop: 1024px,
+);

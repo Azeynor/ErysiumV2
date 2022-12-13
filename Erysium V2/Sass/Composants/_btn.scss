@@ -1,0 +1,80 @@
+
+
+
+.heros-button{
+    background-color: $color-background-button;
+    color: $color-font-button;
+    border-radius: 0.7rem;
+    border: 0.2rem solid transparent;
+    align-items: center;
+    font-weight: 600;
+    flex-wrap: wrap;
+    
+    @include mobile-only{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 42%;
+        padding: 0.5rem 0 0.5rem 0;
+    }
+    @media (min-width:481px) and (max-width:739px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 35%;
+        margin: 0.7rem 0.7rem 0.7rem 0.7rem;
+        padding: 0.5rem 0 0.5rem 0;
+    }
+    @include tablet{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 35%;
+        margin: 0.7rem 0.7rem 0.7rem 0.7rem;
+        padding: 0.5rem 0 0.5rem 0;
+    }
+    @include desktop{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 22%;
+        margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+        padding: 0.1rem 0 0.1rem 0;
+
+    }
+
+
+
+    &:hover,
+    &:focus,
+    &:active{
+        border: 0.3rem solid $color-active-button;
+        outline: none;
+        color: $color-active-button;
+        box-shadow: 2px 3px 37px 3px rgba(240,228,105,0.65);
+        -webkit-box-shadow: 2px 3px 37px 3px rgba(240,228,105,0.65);
+        -moz-box-shadow: 2px 3px 37px 3px rgba(240,228,105,0.65);
+
+       
+        
+    }
+}
+
+.icon-class{
+    margin: 0rem 0.2rem 0rem 0.2rem;
+    align-items: center;
+
+    @include mobile-only{
+        display: none;
+    }
+
+    @media (min-width:481px) and (max-width:739px) {
+        display: none;
+    }
+   
+}
+
+
+
+
+
